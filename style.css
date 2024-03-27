@@ -1,0 +1,173 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'poppins',sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.container .index2 {
+    display: none;
+}
+
+.container .index3 {
+    display: none;
+}
+
+.judul {
+    position: relative;
+    top: -30px;
+    left: 70px;
+    font-size: 40px;
+}
+
+.detektif {
+    width: 610px;
+    height: 329px;
+    background: #DBDBDB;
+    border-radius: 30px;
+}
+
+.detektif .gambar {
+    position: relative;
+    top: -50px;
+    left: 200px;
+    width: 219px;
+    height: 219px;
+}
+
+.des-detektif {
+    width: 475px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background: #FEEEE2;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    left: 70px;
+}
+
+.btn-detektif1 {
+    width: 157px;
+    height: 41px;
+    border-radius: 12px;
+    border: none;
+    background: #6FD240;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.btn-detektif2 {
+    width: 157px;
+    height: 41px;
+    border-radius: 12px;
+    border: none;
+    background: #E12E2E;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: -30px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.judul2 {
+    position: relative;
+    top: -30px;
+    left: 150px;
+    font-size: 40px;
+}
+
+.teknisi {
+    width: 610px;
+    height: 329px;
+    background: #E12E2E;
+    border-radius: 30px;
+}
+
+.teknisi .gambar {
+    position: relative;
+    top: -50px;
+    left: 200px;
+    width: 219px;
+    height: 219px;
+}
+
+.des-teknisi {
+    width: 475px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background: #FEEEE2;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    left: 70px;
+}
+
+.judul3 {
+    position: relative;
+    top: -30px;
+    left: 200px;
+    font-size: 40px;
+}
+
+.mahasiswa {
+    width: 610px;
+    height: 329px;
+    background: #6FD240;
+    border-radius: 30px;
+}
+
+.mahasiswa .gambar {
+    position: relative;
+    top: -50px;
+    left: 200px;
+    width: 219px;
+    height: 219px;
+}
+
+.des-mahasiswa {
+    width: 475px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background: #FEEEE2;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    left: 70px;
+}
